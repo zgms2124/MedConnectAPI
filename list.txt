@@ -1,0 +1,84 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 1625-512B
+E:.
+│  .gitignore
+│  list.txt
+│  MedConnectAPI.iml
+│  pom.xml
+│              
+├─src
+│  └─main
+│      ├─java
+│      │  └─com
+│      │      └─zgms
+│      │          └─MedConnectAPI
+│      │              ├─bean
+│      │              │      Depart.java
+│      │              │      Doctor.java
+│      │              │      HealthRecommendation.java
+│      │              │      Order.java
+│      │              │      OrderDetail.java
+│      │              │      Schedule.java
+│      │              │      User.java
+│      │              │      
+│      │              ├─dao
+│      │              │      DepartDao.java
+│      │              │      DoctorDao.java
+│      │              │      HealthRecommendationDao.java
+│      │              │      OrderDao.java
+│      │              │      ScheduleDao.java
+│      │              │      UserDao.java
+│      │              │      
+│      │              ├─servlet
+│      │              │      ChooseDepartServlet.java
+│      │              │      ChooseDoctorServlet.java
+│      │              │      ChooseTimeServlet.java
+│      │              │      DepartManageServlet.java
+│      │              │      DoctorManageServlet.java
+│      │              │      HealthRecommendationServlet.java
+│      │              │      LoginServlet.java
+│      │              │      MyinfoServlet.java
+│      │              │      OrderManageServlet.java
+│      │              │      PayServlet.java
+│      │              │      RegisterServlet.java
+│      │              │      ScheduleManageServlet.java
+│      │              │      UserManageServlet.java
+│      │              │      
+│      │              └─utils
+│      │                      DbUtil.java
+│      │                      
+│      ├─resources
+│      │      database.properties
+│      │      
+│      └─webapp
+│          │  index.js
+│          │  index.jsp
+│          │  
+│          ├─admin
+│          │  │  depart_manage.jsp
+│          │  │  doctor_manage.jsp
+│          │  │  health_recommendation_manage.jsp
+│          │  │  order_manage.jsp
+│          │  │  schedule_manage.jsp
+│          │  │  user_manage.jsp
+│          │  │  
+│          │  ├─css
+│          │  │      styles.css
+│          │  │      
+│          │  └─js
+│          │          depart_manage.js
+│          │          doctor_manage.js
+│          │          health_recommendation_manage.js
+│          │          order_manage.js
+│          │          schedule_manage.js
+│          │          user_manage.js
+│          │          
+│          └─WEB-INF
+│              │  web.xml
+│              │  
+│              └─lib
+│                      commons-dbutils-1.7.jar
+│                      druid-1.1.5.jar
+│                      gson-2.8.9.jar
+│                      mysql-connector-java-8.0.27.jar
+│                      servlet-api.jar   
